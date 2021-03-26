@@ -1,0 +1,65 @@
+
+@book{bishop_pattern_2006,
+	title = {Pattern recognition and machine learning},
+	isbn = {978-0-387-31073-2},
+	language = {en},
+	author = {Bishop, Christopher M.},
+	keywords = {Machine learning, Pattern perception},
+}
+
+@article{ranganath_black_2013,
+	title = {Black {Box} {Variational} {Inference}},
+	url = {http://arxiv.org/abs/1401.0118},
+	abstract = {Variational inference has become a widely used method to approximate posteriors in complex latent variables models. However, deriving a variational inference algorithm generally requires signiﬁcant model-speciﬁc analysis, and these eﬀorts can hinder and deter us from quickly developing and exploring a variety of models for a problem at hand. In this paper, we present a “black box” variational inference algorithm, one that can be quickly applied to many models with little additional derivation. Our method is based on a stochastic optimization of the variational objective where the noisy gradient is computed from Monte Carlo samples from the variational distribution. We develop a number of methods to reduce the variance of the gradient, always maintaining the criterion that we want to avoid diﬃcult model-based derivations. We evaluate our method against the corresponding black box sampling based methods. We ﬁnd that our method reaches better predictive likelihoods much faster than sampling methods. Finally, we demonstrate that Black Box Variational Inference lets us easily explore a wide space of models by quickly constructing and evaluating several models of longitudinal healthcare data.},
+	language = {en},
+	urldate = {2021-02-13},
+	author = {Ranganath, Rajesh and Gerrish, Sean and Blei, David M.},
+	keywords = {Computer Science - Machine Learning, Statistics - Computation, Statistics - Machine Learning, Statistics - Methodology},
+}
+
+@article{bui_deep_nodate,
+	title = {Deep {Gaussian} {Processes} for {Regression} using {Approximate} {Expectation} {Propagation}},
+	abstract = {Deep Gaussian processes (DGPs) are multilayer hierarchical generalisations of Gaussian processes (GPs) and are formally equivalent to neural networks with multiple, inﬁnitely wide hidden layers. DGPs are nonparametric probabilistic models and as such are arguably more ﬂexible, have a greater capacity to generalise, and provide better calibrated uncertainty estimates than alternative deep models. This paper develops a new approximate Bayesian learning scheme that enables DGPs to be applied to a range of medium to large scale regression problems for the ﬁrst time. The new method uses an approximate Expectation Propagation procedure and a novel and efﬁcient extension of the probabilistic backpropagation algorithm for learning. We evaluate the new method for non-linear regression on eleven real-world datasets, showing that it always outperforms GP regression and is almost always better than state-of-the-art deterministic and sampling-based approximate inference methods for Bayesian neural networks. As a by-product, this work provides a comprehensive analysis of six approximate Bayesian methods for training neural networks.},
+	language = {en},
+	author = {Bui, Thang D and Hernández-Lobato, José Miguel and Hernández-Lobato, Daniel and Li, Yingzhen and Turner, Richard E},
+}
+
+@article{salimbeni_doubly_2017,
+	title = {Doubly {Stochastic} {Variational} {Inference} for {Deep} {Gaussian} {Processes}},
+	url = {http://arxiv.org/abs/1705.08933},
+	abstract = {Gaussian processes (GPs) are a good choice for function approximation as they are ﬂexible, robust to overﬁtting, and provide well-calibrated predictive uncertainty. Deep Gaussian processes (DGPs) are multi-layer generalizations of GPs, but inference in these models has proved challenging. Existing approaches to inference in DGP models assume approximate posteriors that force independence between the layers, and do not work well in practice. We present a doubly stochastic variational inference algorithm that does not force independence between layers. With our method of inference we demonstrate that a DGP model can be used effectively on data ranging in size from hundreds to a billion points. We provide strong empirical evidence that our inference scheme for DGPs works well in practice in both classiﬁcation and regression.},
+	language = {en},
+	urldate = {2021-02-13},
+	author = {Salimbeni, Hugh and Deisenroth, Marc},
+	keywords = {Statistics - Machine Learning},
+	annote = {Comment: NIPS 2017},
+}
+
+@article{snelson_sparse_nodate,
+	title = {Sparse {Gaussian} {Processes} using {Pseudo}-inputs},
+	abstract = {We present a new Gaussian process (GP) regression model whose covariance is parameterized by the the locations of M pseudo-input points, which we learn by a gradient based optimization. We take M N , where N is the number of real data points, and hence obtain a sparse regression method which has O(M 2N ) training cost and O(M 2) prediction cost per test case. We also ﬁnd hyperparameters of the covariance function in the same joint optimization. The method can be viewed as a Bayesian regression model with particular input dependent noise. The method turns out to be closely related to several other sparse GP approaches, and we discuss the relation in detail. We ﬁnally demonstrate its performance on some large data sets, and make a direct comparison to other sparse GP methods. We show that our method can match full GP performance with small M , i.e. very sparse solutions, and it signiﬁcantly outperforms other approaches in this regime.},
+	language = {en},
+	author = {Snelson, Edward and Ghahramani, Zoubin},
+}
+
+@article{hensman_gaussian_nodate,
+	title = {Gaussian {Processes} for {Big} {Data}},
+	abstract = {We introduce stochastic variational inference for Gaussian process models. This enables the application of Gaussian process (GP) models to data sets containing millions of data points. We show how GPs can be variationally decomposed to depend on a set of globally relevant inducing variables which factorize the model in the necessary manner to perform variational inference. Our approach is readily extended to models with non-Gaussian likelihoods and latent variable models based around Gaussian processes. We demonstrate the approach on a simple toy problem and two real world data sets.},
+	language = {en},
+	author = {Hensman, James and Fusi, Nicolo and Lawrence, Neil D},
+}
+
+@article{quinonero-candela_unifying_nodate,
+	title = {A {Unifying} {View} of {Sparse} {Approximate} {Gaussian} {Process} {Regression}},
+	abstract = {We provide a new unifying view, including all existing proper probabilistic sparse approximations for Gaussian process regression. Our approach relies on expressing the effective prior which the methods are using. This allows new insights to be gained, and highlights the relationship between existing methods. It also allows for a clear theoretically justiﬁed ranking of the closeness of the known approximations to the corresponding full GPs. Finally we point directly to designs of new better sparse approximations, combining the best of the existing strategies, within attractive computational constraints.},
+	language = {en},
+	author = {Quiñonero-Candela, Joaquin and Rasmussen, Carl Edward},
+	file = {Qui - 2005 - Quinonero-Candela05a.pdf:C\:\\Users\\Ludvins\\Documents\\Books\\Qui - 2005 - Quinonero-Candela05a.pdf:application/pdf},
+}
+
+@article{titsias_variational_nodate,
+	title = {Variational {Learning} of {Inducing} {Variables} in {Sparse} {Gaussian} {Processes}},
+	abstract = {Sparse Gaussian process methods that use inducing variables require the selection of the inducing inputs and the kernel hyperparameters. We introduce a variational formulation for sparse approximations that jointly infers the inducing inputs and the kernel hyperparameters by maximizing a lower bound of the true log marginal likelihood. The key property of this formulation is that the inducing inputs are deﬁned to be variational parameters which are selected by minimizing the Kullback-Leibler divergence between the variational distribution and the exact posterior distribution over the latent function values. We apply this technique to regression and we compare it with other approaches in the literature.},
+	language = {en},
+	author = {Titsias, Michalis K},
+}
