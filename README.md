@@ -1,3 +1,3 @@
 # Gaussian Processes talk
 
-Slides for the my about Gaussian processes.
+Slides for my talk about Gaussian Processes at the University of Almería.
